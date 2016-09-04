@@ -1,6 +1,6 @@
 // push model
 
-// lintcode
+// lint version
 class MiniTwitter {
 private:
     struct Node {
@@ -112,7 +112,7 @@ public:
     }
 };
 
-// leetcode
+// leet version
 class Twitter {
 private:
     struct Node {
@@ -220,6 +220,7 @@ public:
         return node1->time < node2->time;
     }
 };
+
 
 // pull model
 class Twitter {
